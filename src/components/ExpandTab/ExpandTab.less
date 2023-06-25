@@ -1,0 +1,55 @@
+.root {
+  position: absolute;
+  top: 120px;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  z-index: 10;
+  padding: 0 19px;
+  :global {
+    .ant-tabs-card > .ant-tabs-nav .ant-tabs-tab {
+      // width: 200px;
+      height: 80px;
+      margin: 0 8px;
+      background: rgba(4, 24, 75, 0.6);
+      border: 1px solid #2e40e3;
+      font-family: PangMenZhengDao;
+      font-size: 24px;
+      color: rgba(255, 255, 255, 0.6);
+      letter-spacing: 2px;
+    }
+    .ant-tabs-tab-btn {
+      // width: 200px;
+      text-align: center;
+    }
+    .ant-tabs-nav::before {
+      content: none;
+    }
+    .ant-tabs-card.ant-tabs-top > .ant-tabs-nav .ant-tabs-tab-active {
+      // border-bottom-color: #2e40e3;
+      color: #fff;
+      background: #04184b;
+      border: 1px solid #d7d0b7;
+      box-shadow: 0 9px 9px 0 rgba(0, 14, 50, 0.81);
+    }
+    .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+      color: #fff;
+    }
+    .ant-tabs-nav-operations {
+      display: none !important;
+    }
+  }
+}
+.operationWrapper {
+  width: 38px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  border: 1px solid #2e40e3;
+  text-align: center;
+  color: #637cfe;
+  margin: 0 10px;
+  cursor: pointer;
+}

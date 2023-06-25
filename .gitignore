@@ -1,0 +1,18 @@
+/node_modules
+node_modules
+/dist
+.umi
+.umi-production
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.uploadrc
+.DS_Store
+
+.idea/
+
+DraggableDiv
+
+# 发布脚本
+sftp.json
+setSftp.js

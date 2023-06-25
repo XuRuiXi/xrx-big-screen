@@ -1,0 +1,23 @@
+.root {
+  position: relative;
+  &::-webkit-scrollbar {
+    width: 0;
+  }
+  .legendChartContainer {
+    height: 38px;
+    overflow: hidden;
+  }
+  .legendArea {
+    position: relative;
+    top: 0;
+    height: 75px;
+    width: 100%;
+  }
+  .chartArea {
+    position: relative;
+    transform: translateZ(10px);
+    // margin-top: -18px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+}

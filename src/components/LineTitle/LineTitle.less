@@ -1,0 +1,18 @@
+.root {
+  font-family: PingFangSC-Regular;
+  font-size: 50px;
+  color: transparent;
+  letter-spacing: 0;
+  background: linear-gradient(to bottom, #fff, #00f2ff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  &::before {
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 39px;
+    background: url('../../assets/images/titleLine.png') no-repeat;
+    background-size: contain;
+    margin-right: 12px;
+  }
+}

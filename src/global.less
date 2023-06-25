@@ -1,0 +1,122 @@
+// 全局样式
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  // ::-webkit-scrollbar { width:0px; }
+  .ant-layout {
+    background-color: #f8f8f8;
+  }
+}
+
+/* 滚动条整体部分 */
+.topnav_box::-webkit-scrollbar {  
+  width:10px;
+  border-radius: 10px;
+  background: rgba(255,255,255,0.15);
+ }
+ /* scroll轨道背景 */
+ .topnav_box::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background: rgba(255,255,255,0.15);
+ }
+ 
+ /* 滚动条中能上下移动的小块 */
+ .topnav_box::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: rgba(255,255,255,0.25);
+ } 
+
+html {
+  font-size: 10px;
+}
+
+#root {
+  font-size: 14px;
+}
+
+.ant-layout {
+  height: 100%;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+article,
+aside,
+blockquote,
+body,
+button,
+code,
+dd,
+details,
+div,
+dl,
+dt,
+fieldset,
+figcaption,
+figure,
+footer,
+form,
+header,
+hgroup,
+hr,
+input,
+legend,
+li,
+menu,
+nav,
+ol,
+pre,
+section,
+td,
+textarea,
+th,
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+canvas {
+  display: block;
+}
+
+body {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.b100x100 {
+  width: 100%;
+  height: 100%;
+}
+
+@font-face {
+  font-family: 'PangMenZhengDao';
+  src: url('./PangMenZhengDao.ttf');
+}
+
+@font-face {
+  font-family: 'DINAlternate-Bold';
+  src: url('./assets/font/DIN/DIN-BlackAlternate.ttf');
+}
+
+@font-face {
+  font-family: 'DIN-Bold';
+  src: url('./assets/font/DIN/DIN-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'DIN-BoldItalic';
+  src: url('./assets/font/DIN/DIN-BoldItalic.ttf');
+}
